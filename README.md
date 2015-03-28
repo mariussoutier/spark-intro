@@ -1,6 +1,7 @@
 # Intro to Spark
 
 Into to exploring data and extracting useful information using [Apache Spark)(http://spark.apache.org).
+The code was presented at the Scala User Group Cologne, slides are [here](http://www.slideshare.net/marius-soutier/spark-intro-scala-ug).
 
 There are several jobs provided that you can run for each topic. Build the JAR using `sbt ";clean;assembly"`.
 Run it on Spark using `spark-submit --master <master> --class <f.q.ClassName> target/scala-2.10/spark-demo-assembly-1.0.jar`.
