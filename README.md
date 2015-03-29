@@ -23,7 +23,7 @@ When you are starting a SparkContext, pass the master explicitly, e.g.:
 ## GitHub Commits
 
 1. Obtain an OAuth key on GitHub (Settings > Applications > Personal access tokens > Generate)
-2. Execute `download_github.sh`
+2. Execute `download_github.sh <token>`
 3. Execute `ProcessGitHubData.scala`
 -> the files should be in `src/main/resources/github`, one commit per line
 
